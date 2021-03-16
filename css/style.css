@@ -1,0 +1,120 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+/*Banner*/
+
+.banner {
+    background: url(../img/banner.jpeg) center no-repeat;
+    background-size: cover;
+    height: 78vh;
+    padding-top: 7rem;
+    text-align: center;
+    color:white;
+}
+
+
+.container__banner {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+.banner__titulo {
+    font-size: 3rem;
+}
+
+.banner__subtitulo {
+    font-size: 1.5rem;
+}
+
+.btn {
+    border-radius: 3rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-branco {
+    color: beige;
+    text-decoration: none;
+}
+
+/*Sobre*/
+.sobre{
+    margin: 7rem;
+}
+
+.container__sobre{
+    margin: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sobre-descricao, .sobre-habilidades, .informacao_redes_sociais_sobre{
+    width: 30%;
+    padding: auto;
+}
+
+.sobre__titulo{
+    font-size: 3rem;
+    color: #808080;
+    text-align:center
+}
+
+.btn-amarelo{
+    color: #ffdb58;
+    text-align: left;
+    border: 1px solid #ffdb58;
+    text-decoration: none;
+    font-size:0.6rem ;
+}
+
+.convite_redes-sociais{
+    color: #ffdb58;
+    font-size:rem;
+    font-weight: bold
+}
+
+.informacao_redes_sociais_sobre{
+    text-align: end;
+}
+
+/* Redes Sociais*/
+
+.footer {
+    text-align: center;
+    background-color:#ffdb58 ;
+}
+
+.redes-sociais{
+    margin: auto;
+    margin:2rem;
+}
+
+.redes-sociais__link {
+    display: inline-block;
+    width: 20%;
+    background-color: #808080;
+    padding: 2rem 0;
+    margin: 0 1rem;
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin:1rem;
+}
+
+.redes-sociais__img, .redes-sociais__titulo {
+    margin-bottom: .5rem;
+}
+
+.footer__copy-texto {
+    color: #c4c4c4;
+    font-weight: lighter;
+    margin-top: 3rem;
+    padding: 1rem;
+}
