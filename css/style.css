@@ -55,10 +55,6 @@ body {
     justify-content: space-evenly;
 }
 
-.sobre-descricao, .sobre-habilidades, .informacao_redes_sociais_sobre{
-    width: 30%;
-    padding: auto;
-}
 
 .sobre__titulo{
     font-size: 3rem;
@@ -74,14 +70,12 @@ body {
     font-size:0.6rem ;
 }
 
-.convite_redes-sociais{
-    color: #ffdb58;
-    font-size:rem;
-    font-weight: bold
+.sobre-descricao__destaque{
+    width: 300px;
 }
 
-.informacao_redes_sociais_sobre{
-    text-align: end;
+.sobre-habilidade{
+    width: 300px;
 }
 
 /* Redes Sociais*/
@@ -92,8 +86,15 @@ body {
 }
 
 .redes-sociais{
-    margin: auto;
     margin:2rem;
+    padding-bottom: 100px
+}
+
+.redes-sociais__titulo-principal{
+    font-size: 3rem;
+    color: white;
+    text-align:center;
+    padding-top: 100px;
 }
 
 .redes-sociais__link {
@@ -117,4 +118,15 @@ body {
     font-weight: lighter;
     margin-top: 3rem;
     padding: 1rem;
+}
+
+.parágrafo_redes-sociais{
+    background-color: white;
+    padding: 10px;
+}
+
+.link_footer{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
